@@ -1,0 +1,17 @@
+{
+  "description": "Migration safety check hook",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/migration-check.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "database-migration-plugin",
+  "version": "1.0.0",
+  "description": "SQLite3マイグレーション管理を自動化するPlugin",
+  "author": {
+    "name": "sea"
+  }
+}

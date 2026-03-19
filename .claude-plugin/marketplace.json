@@ -1,0 +1,14 @@
+{
+  "name": "dev-marketplace",
+  "owner": {
+    "name": "adaseea",
+    "url": "https://github.com/adaseajp/dev-marketplace-main"
+  },
+  "plugins": [
+    {
+      "name": "database-migration-plugin",
+      "source": "./plugins/database-migration-plugin",
+      "description": "SQLite3マイグレーション管理を自動化するPlugin"
+    }
+  ]
+}

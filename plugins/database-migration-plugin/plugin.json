@@ -1,0 +1,11 @@
+{
+  "name": "database-migration-plugin",
+  "version": "1.0.0",
+  "description": "SQLite3マイグレーション管理を自動化するPlugin",
+  "author": {
+    "name": "Your Team"
+  },
+  "repository": "https://github.com/your-team/database-migration-plugin",
+  "license": "MIT",
+  "keywords": ["database", "migration", "sqlite3"]
+}
