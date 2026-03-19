@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/migration-check.sh",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/migration-check.ps1",
             "timeout": 30
           }
         ]

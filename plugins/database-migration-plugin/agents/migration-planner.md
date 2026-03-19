@@ -2,7 +2,7 @@
 name: migration-planner
 description: データベーススキーマ変更を安全に計画。マイグレーション作成依頼時に使用。
 tools: Read, Write, Grep, Glob, Bash
-model: sonnet
+model: qwen3-coder:30b
 skills: migration-best-practices
 ---
 
